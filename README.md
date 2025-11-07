@@ -67,22 +67,19 @@ EDA involves exploring the student performance data to answer key academic and s
 - Provide insights on how academic improvements can enhance the school’s reputation and attract more student enrollments.
 
 ## Data Analysis
-Performed calculations in Power BI using DAX and Conditional Columns to generate insights and create filters for the dashboard.
-- Outlier Detection(Unit Sales): Unit Q1 = PERCENTILE.INC(Sales[Unit], 0.25)
-  Unit Q3 = PERCENTILE.INC(Sales[Unit], 0.75)
-  Unit IQR = [Unit Q3] - [Unit Q1]
-Is Outlier =
-  IF(
-    Sales[Unit] < ([Unit Q1] - 1.5 * [Unit IQR]) ||
-    Sales[Unit] > ([Unit Q3] + 1.5 * [Unit IQR]),
-    "Yes", "No"
-    )
-- Age Outlier Removal (Conditional Column): If Age < 14 then "Yes"
-  Else if Age > 54 then "Yes"
-  Else "No"
-- Age Range Grouping (Conditional Column): If Age >= 20 and Age <= 24 then "20-24"
-  Else if Age >= 25 and Age <= 29 then "25-29"
-  Else if Age >= 30 and Age <= 34 then "30-34"...
+Data analysis was conducted in **Python** using Jupyter Notebook to explore and derive insights from the student performance dataset.  
+
+The analysis steps included:
+- Computing descriptive statistics (mean, min, max) for Math, Reading, and Writing.
+- Creating an **Average Score** column and classifying students into **Performance Levels** (High, Medium, Low).
+- Comparing scores across **Gender**, **Race/Ethnicity**, and **Parental Level of Education**.
+- Evaluating how **Lunch Type** and **Test Preparation Course** affect performance.
+- Checking correlations between Math, Reading, and Writing scores using a heatmap.
+- Detecting outliers using the **IQR (Interquartile Range)** method.
+- Exporting summarized results to Power BI for visualization.
+
+**See full Python analysis here:**  
+[View Python Notebook](https://github.com/your-username/your-repo-name/blob/main/Student_Dataset%20Notebook.ipynb).
 
 ## Results/Findings
 The results of the analysis are summarized as follows:
