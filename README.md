@@ -34,34 +34,36 @@ The data is used to analyze performance trends, identify key drivers of academic
 [Access Dataset on Kaggle](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams?resource=download)
 
 ## Tools
-- Power BI (including Power Query Editor) – for data cleaning, modeling, and visualization [Download_Power_BI](https://powerbi.microsoft.com/)  
-- Microsoft Excel – for dataset storage and initial format inspection [Download_Microsoft_Excel](https://www.microsoft.com/microsoft-365/excel) 
-- GitHub – for project documentation and sharing [Download_GitHub](https://github.com/)
+- Python – for data cleaning, preparation, and analysis [Download_Python](https://www.python.org/downloads/)  
+- Power BI – for data visualization and dashboard creation [Download_Power_BI](https://powerbi.microsoft.com/)  
+- Microsoft Excel – for dataset storage and initial data inspection [Download_Microsoft_Excel](https://www.microsoft.com/microsoft-       365/excel)  
+- GitHub – for project documentation and sharing [Download_GitHub](https://github.com/)  
 
 ## Data Cleaning/Preparation
-Data was cleaned and prepared in Power Query Editor (inside Power BI) before visualization.  
+Data was cleaned and prepared using Python before visualization in Power BI.  
 The main steps included:
-- Promoted headers to ensure first row was recognized as column titles.
-- Changed data types (e.g., Sales Date → Date, Sales Amount → Decimal Number).
-- Removed duplicates based on Transaction ID to avoid double-counting.
-- Standardized text values (e.g., "lagos" → "Lagos", "toyota" → "Toyota").
-- Handled missing values by replacing blanks in the Age column with the median age.
-- Corrected inconsistent categorical values & typos** (e.g., "malee" → "Male", "FEMALE" → "Female").
-- Removed outliers by filtering unrealistic ages (<18 and >50).
-- Created new columns:
-  - Age Range – Grouped customers into categories (18–25, 26–35, etc.).
-  - Month-Year – Extracted from Sales Date for sales trend analysis.
-- Renamed columns for consistency and readability (e.g., "Cust_ID" → "Customer ID").
+- Loaded the dataset using Pandas and inspected for missing or inconsistent values.
+- Verified that the first row contained column headers.
+- Checked and standardized data types (e.g., scores as numeric, categorical fields as strings).
+- Removed duplicates to ensure each student record appeared only once.
+- Standardized categorical values for consistency (e.g., "female" → "Female", "male" → "Male").
+- Handled missing values by filling or removing incomplete records where necessary.
+- Checked for and corrected typos or inconsistent text entries in columns like “Parental Level of Education” and “Race/Ethnicity.”
+- Created new calculated columns:
+  - **Average Score** – computed as the mean of math, reading, and writing scores.
+  - **Performance Level** – categorized students into performance groups (e.g., High, Medium, Low) based on their average score.
+- Renamed columns for clarity and readability.
 
 ## Exploratory Data Analysis
-EDA involves exploring the sales data to answer key business questions such as:
-- Analyze sales performance across existing branches
-- identify regions with high untapped market potentials
-- understand which car brands/models are in the highest demand
-- recommend opportunities to expand popular products into new markets
-- analyze customer age, gender, and region to uncover key demographic trends
-- identify peak sales period and seasonal trends in 2020
-- use trends to forcast future performance and inform expansion timing
+EDA involves exploring the student performance data to answer key academic and strategic questions such as:
+- Analyze overall performance in math, reading, and writing.
+- Identify performance trends across gender, race/ethnicity, and parental education levels.
+- Examine how lunch type (standard or free/reduced) affects academic outcomes.
+- Evaluate the impact of completing a test preparation course on student scores.
+- Determine which demographic groups perform best or need additional academic support.
+- Identify correlations among math, reading, and writing scores.
+- Uncover key factors driving high performance to guide school improvement strategies.
+- Provide insights on how academic improvements can enhance the school’s reputation and attract more student enrollments.
 
 ## Data Analysis
 Performed calculations in Power BI using DAX and Conditional Columns to generate insights and create filters for the dashboard.
