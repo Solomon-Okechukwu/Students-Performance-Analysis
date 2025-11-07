@@ -28,10 +28,10 @@ Analyze student performance data to identify key factors influencing academic ou
 - Link improved academic results to strategies for increasing student enrollment.
 
 ## Data Source
-The dataset for this project contains car sales transactions from Auto Style Limited for the year 2020.  
-It was used to analyze sales performance, identify trends, and recommend the best location for a new branch expansion.
-[Download Raw Dataset](https://github.com/Solomon-Okechukwu/Car-Sales-Performance-Analysis/blob/main/AutoStyle_Sales_2020_Raw_data.xlsx)
-[Download Cleaned Dataset](https://github.com/Solomon-Okechukwu/Car-Sales-Performance-Analysis/blob/main/AutoStyle_Sales_2020_Cleaned_data.xlsx)
+The dataset for this project contains student academic performance records, focusing on factors that influence exam outcomes.
+It includes details such as gender, race/ethnicity, parental level of education, lunch type, test preparation status, and scores in math, reading, and writing.
+The data is used to analyze performance trends, identify key drivers of academic success, and develop strategies to improve results and boost student enrollment.
+[Access Dataset on Kaggle](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams?resource=download)
 
 ## Tools
 - Power BI (including Power Query Editor) – for data cleaning, modeling, and visualization [Download_Power_BI](https://powerbi.microsoft.com/)  
