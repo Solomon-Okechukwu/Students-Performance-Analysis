@@ -79,7 +79,7 @@ The analysis steps included:
 - Exporting summarized results to Power BI for visualization.
 
 **See full Python analysis here:**  
-[View Python Notebook](https://github.com/your-username/your-repo-name/blob/main/Student_Dataset%20Notebook.ipynb).
+[View Python Notebook](https://github.com/Solomon-Okechukwu/Students-Performance-Analysis/blob/main/Student_Dataset%20Notebook.ipynb).
 
 ## Results/Findings
 The results of the analysis are summarized as follows:
