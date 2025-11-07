@@ -108,7 +108,7 @@ Performance Correlation: Strong positive correlation between Reading and Writing
 - Low Performers: Students with average scores below 60 are mainly from lower parental education levels and those who didn’t complete test preparation.
 
 ## Dashboard Preview
-  Here is an overview of the Car Sales Performance Dashboard
+  Here is an overview of the Student_Performance_Dashboard 
   ![Dashboard Overview](Car%20Sales%20Dashboard.PNG)
 
 ## Recommendation
