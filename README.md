@@ -17,14 +17,15 @@ Analysis of students' performance data to uncover insights that can help improve
 - [References](#references)
   
 ## Project Overview
-This project analyzes Auto Style Limited’s 2020 car sales data to support the company’s plan to open a new branch. Using Power BI, I cleaned and visualized the data to identify the most profitable location, understand customer demographics, highlight top-selling car brands and models, and reveal seasonal sales trends. The insights guided recommendations on where, what, and when to expand for maximum business impact
-Power BI project analyzing Auto Style Limited's 2020 car sales data to identify the best location, product lineup, target customers, and timing for a new branch expansion
+The project “Analyzing Student Performance to Drive Enrollment Growth” aims to examine students’ academic data to identify factors affecting their performance. By analyzing trends across gender, race/ethnicity, parental education, lunch type, and test preparation, the project seeks to uncover key drivers of success. The insights will help the school design strategies to improve academic outcomes, enhance its reputation, and attract more student enrollments.
 
 ## Objectives
-- Identify the region with the highest untapped market potential.
-- Understand which car brands/models are in highest demand.
-- Analyze customer demographics (age, gender, region).
-- Identify peak sales periods and seasonal trends.
+Analyze student performance data to identify key factors influencing academic outcomes.
+- Examine trends in math, reading, and writing scores across gender, race/ethnicity, and parental education levels.
+- Assess the impact of lunch type and test preparation on student performance.
+- Determine the strongest predictors of high academic achievement.
+- Provide actionable recommendations to improve student performance.
+- Link improved academic results to strategies for increasing student enrollment.
 
 ## Data Source
 The dataset for this project contains car sales transactions from Auto Style Limited for the year 2020.  
