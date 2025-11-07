@@ -107,9 +107,9 @@ Performance Correlation: Strong positive correlation between Reading and Writing
 - Top Performers: Students with average scores above 80 are classified as High Performers — mostly those with educated parents and who completed test prep.
 - Low Performers: Students with average scores below 60 are mainly from lower parental education levels and those who didn’t complete test preparation.
 
-## Dashboard Preview
+## Dashboard Preview 
   Here is an overview of the Student_Performance_Dashboard 
-  ![Dashboard Overview](Car%20Sales%20Dashboard.PNG)
+  ![Dashboard Overview](https://github.com/Solomon-Okechukwu/Students-Performance-Analysis/blob/main/Students'%20Performance%20Dashboard.PNG)
 
 ## Recommendation
 - Introduce free or subsidized test preparation courses to improve overall student scores.
