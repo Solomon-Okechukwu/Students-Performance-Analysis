@@ -84,56 +84,69 @@ The analysis steps included:
 ## Results/Findings
 The results of the analysis are summarized as follows:
   
-#### Customer Demographics
-- Age Range: Majority of customers are between 26–40 years (84% of sales), with 26–30 (480 sales) and 31–35 (457 sales) as the top groups.
-- Gender: Sales are balanced across genders – female (51%), male (49%).
+#### Student Demographics
+- Gender: Female students slightly outperform males across all subjects — particularly in reading and writing.
+- Parental Education: Students whose parents hold a bachelor’s degree or higher consistently achieve higher average scores compared to those whose parents have only high school or some   college education.
+- Race/Ethnicity: Group E students record the highest average scores, while Group A students perform the lowest overall.
   
-#### Sales Trends
-- Monthly: Sales grew steadily from Jan–May, dipped in June, then peaked in November (200 sales) before dropping in December (61 sales).
-- Quarterly: Sales were lowest in Q1 and highest in Q3–Q4, indicating stronger performance in the second half of the year.
+#### Academic Performance Trends
+- Subject Scores:
+Math: Average ≈ 66
+Reading: Average ≈ 70
+Writing: Average ≈ 68
+Reading scores are generally higher than math scores across all demographics.
+
+Performance Correlation: Strong positive correlation between Reading and Writing scores (≈ 0.95), indicating that students who perform well in one tend to perform well in the other..
   
-#### Location Performance
-- Top Branch: Lagos recorded the highest sales (361 units).
-- Lowest Branch: Ekiti had only 17 sales.
-- Observation: Approximately 99% of sales came from 5 branches, showing uneven distribution.
+#### Socialeconomic Factors
+- Lunch Type: Students receiving standard lunch perform significantly better in all subjects than those on free/reduced lunch, showing the impact of socioeconomic background on
+  performance.
+- Test Preparation Course: Students who completed a test preparation course scored 10–15 points higher on average across all subjects compared to those who did not.
   
-#### Product Performance
-- Car Models: Corolla leads with 201 units, while Passat and Highlander had only 3 units each.
-- Car Brands: Ford (368 sales) and Toyota dominate, with Honda, Nissan, and Hyundai also strong. Together, the top 5 brands contribute approximately 90% of sales.
+#### Performance Distribution
+- Top Performers: Students with average scores above 80 are classified as High Performers — mostly those with educated parents and who completed test prep.
+- Low Performers: Students with average scores below 60 are mainly from lower parental education levels and those who didn’t complete test preparation.
 
 ## Dashboard Preview
   Here is an overview of the Car Sales Performance Dashboard
   ![Dashboard Overview](Car%20Sales%20Dashboard.PNG)
 
 ## Recommendation
-  - Target expansion in urban regions with high untapped demand (e.g., Northern Nigeria).
-- Prioritize stocking high-demand models (Corolla, Camry, Ford SUVs) in the new branch.
-- Align campaigns with Q3–Q4 sales peak (festive season).
-- Focus marketing on customers aged 26–40 while maintaining balanced gender messaging.
+- Introduce free or subsidized test preparation courses to improve overall student scores.
+- Provide nutrition support or lunch improvement programs for students on free/reduced lunch to bridge performance gaps.
+- Encourage greater parental engagement, especially among families with lower education levels.
+- Develop targeted academic support programs for underperforming demographic groups (e.g., specific race/ethnicity clusters).
+- Use improved student results in marketing campaigns to attract more enrollments and strengthen the school’s academic reputation.
+- Continuously track performance metrics by gender, parental education, and socioeconomic status to guide data-driven improvement strategies..
 
 ## Limitations
 During the analysis, several data quality issues were identified and addressed:
-- Outliers: Extreme sales values were removed to avoid skewing the results.
-- Age Range: Customer ages were grouped into categories (e.g., 21–25, 26–30, 31–35, etc.) to simplify demographic analysis.
-- Inconsistencies in Entries:
-  Corrected spelling errors such as “malee” → “male”.
-- Missing Data: Records with incomplete or missing key information were excluded from the analysis.
-  Limitations:
-- Cleaning decisions (like removing outliers) may slightly affect total sales figures.
-- Grouping ages into ranges can hide small variations within age brackets.
-- Limited dataset (2020 only) may not fully represent long-term sales trends.
+- Inconsistent Text Entries: Corrected spelling and formatting issues such as “female” → “Female” and “bachelor’s degree ” → “Bachelor’s degree”.
+- Missing Data: A few records had incomplete information (e.g., parental education or lunch type) and were excluded from analysis.
+- Outliers: Unusually high or low test scores were reviewed and filtered using the IQR method to prevent skewed averages.
+- Categorical Standardization: Race/ethnicity and parental education levels were grouped into predefined categories for consistency.
+
+Limitations:
+
+- Removing outliers and incomplete records may slightly affect the overall average scores.
+- Grouping demographic variables (e.g., education levels, race/ethnicity) may mask subtle differences between subgroups.
+- The dataset represents a specific sample, which may not fully reflect broader student populations or real-world diversity.
+- Limited socioeconomic variables mean deeper insights into external factors (like income or school type) couldn’t be explored.
 
 ## References
-- Dataset source: Skill Ahead – Free Dataset Storage Folder (2020).  
-- Guidance from personal Power BI training notes and documentation.
+- Dataset Source: Kaggle – Students Performance in Exams
+- Python Libraries: Pandas, NumPy, Matplotlib, and Seaborn (for data cleaning, analysis, and visualization).
+- Visualization Tool: Microsoft Power BI – used for dashboard creation and performance trend visualization.
+- Personal study notes.
 
 😄
 💻
 📊
 
-|Heading1|Heading2|
-|--------|--------|
-|Content1|Content2|
-|Excel|Power BI|
+| Tool | Purpose |
+|------|----------|
+| Excel | Used for basic data exploration and cleaning before visualization. |
+| Power BI | Used for creating interactive dashboards and insights visualization. |
+| Python | Used for data cleaning, analysis, and generating statistical insights. |
 
 
