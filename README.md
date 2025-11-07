@@ -32,7 +32,7 @@ The dataset for this project contains student academic performance records, focu
 It includes details such as gender, race/ethnicity, parental level of education, lunch type, test preparation status, and scores in math, reading, and writing.
 The data is used to analyze performance trends, identify key drivers of academic success, and develop strategies to improve results and boost student enrollment.
 [Access Raw Data](https://github.com/Solomon-Okechukwu/Students-Performance-Analysis/blob/main/Student-Performance-Analysis-Raw.csv)  
-[Access Cleaned Data](https://github.com/WisdomMathScience/Student-Performance-Analysis/blob/main/Student_Performance_scores_cleaned%20(1).csv)
+[Access Cleaned Data](https://github.com/Solomon-Okechukwu/Students-Performance-Analysis/blob/main/Student_Performance_scores_cleaned%20(1).csv)
 
 ## Tools
 - Python – for data cleaning, preparation, and analysis [Download_Python](https://www.python.org/downloads/)  
